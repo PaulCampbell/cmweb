@@ -1,0 +1,91 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+			<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+			<link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+            	<meta name="description" content="Caddy Magic turns your phone into a golf range finder. No need to carry extra gadgets around with you... Just download the software and your phone becomes a fully functioning golf range finder!" /> 
+            <script src="http://maps.google.com/maps?file=api&amp;v=3&amp;sensor=true&amp;key=<%= System.Configuration.ConfigurationManager.AppSettings.Get("gMapKey")%>" type="text/javascript">
+            </script>
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+			<script type="text/javascript" src="/Scripts/jquery.json-2.2.min.js"></script>
+            <script type="text/javascript" src="/Scripts/jquery.gmap.min.js"></script>
+            <script type="text/javascript" src="/Scripts/jquery.blockui.js"></script>
+            <script type="text/javascript" src="/Scripts/cm.js"></script>
+
+			
+	</head>
+
+	<body  onload="_loadUserVoice();load(); " onunload="GUnload()">
+		<div class="page">
+			<div id="header">
+            
+					<h1><a href="/"><span>Caddy Magic</span></a></h1>
+
+			</div>
+			<div id="navigation">
+				<ul>
+					<li><%=Html.ActionLink("Home", "Index", "Home")%></li>
+					<li><%=Html.ActionLink("How it works", "RangeFinder", "Home") %></li>
+					<li><%=Html.ActionLink("Golf courses", "Index", "GolfCourse")%></li>
+					<li><%=Html.ActionLink("News and press", "NewsAndPress", "Home")%></li>
+					<li><%=Html.ActionLink("Contact", "Contact", "Home", null, new { @style = "padding:10px 52px 6px 54px;" })%></li>
+				</ul>
+			</div>                 
+
+			<div id="main">
+				<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+			</div>
+
+			<div id="footer">
+			 <div class="fullWidth" style=" padding:0 0 0 220px;">
+			    <ul class="footerLinks">
+			       	<li><%=Html.ActionLink("Home", "Index", "Home")%></li>
+					<li><%=Html.ActionLink("How it works", "RangeFinder", "Home")%></li>
+					<li><%=Html.ActionLink("Golf courses", "Index", "GolfCourse")%></li>
+					<li><%=Html.ActionLink("News and press", "NewsAndPress", "Home")%></li>
+					<li><%=Html.ActionLink("Contact", "Contact", "Home")%></li>
+			    </ul>
+			    <div style="clear:both;"></div>
+			    </div>
+			    <div class="copyMessage">
+			     Caddy Magic by <a href="http://www.decoratedworld.co.uk">Decorated World</a> 
+			    </div>
+			</div>
+		</div>
+        
+		<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10007376-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript">
+    var uservoiceOptions = {
+        key: 'caddymagic',
+        host: 'caddymagic.uservoice.com',
+        forum: '60995',
+        alignment: 'left',
+        background_color: '#f00',
+        text_color: 'white',
+        hover_color: '#06c',
+        lang: 'en',
+        showTab: true
+    };
+    function _loadUserVoice() {
+        var s = document.createElement('script');
+        s.src = ("https:" == document.location.protocol ? "https://" : "http://") + "uservoice.com/javascripts/widgets/tab.js";
+        document.getElementsByTagName('head')[0].appendChild(s);
+    }
+    _loadSuper = window.onload;
+    window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function () { _loadSuper(); _loadUserVoice(); };
+
+</script>
+
+	</body>
+</html>

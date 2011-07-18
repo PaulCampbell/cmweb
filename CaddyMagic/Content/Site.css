@@ -1,0 +1,500 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+body {
+line-height: 1;
+color: black;
+background: white;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+
+
+body
+{
+font-family: Helvetica,Arial,Verdana,sans-serif;
+margin: 19px 0;
+padding: 0;
+
+color: #696969;
+background-image:url(images/bg.gif);
+}
+
+a:link
+{
+
+text-decoration: underline;
+color:#5b5b5b;
+}
+
+img { margin:0 9px 9px 9px}
+a:active
+{
+
+}
+
+p, ul
+{
+margin-bottom: 20px;
+line-height: 1.4em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+font-size: 1.5em;
+color: #000;
+}
+
+h1
+{
+font-size: 2.2em;
+padding: 0 0 10px 0;
+margin: 0;
+
+}
+h2
+{
+padding: 0 0 10px 0;
+}
+h3
+{
+font-size: 1.2em;
+padding: 0 0 10px 0;
+}
+h4
+{
+font-size: 1.1em;
+padding: 0 0 10px 0;
+}
+h5, h6
+{
+font-size: 1em;
+padding: 0 0 10px 0;
+}
+
+/* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+margin-top: 0;
+}
+
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page
+{
+width: 950px;
+margin-left: auto;
+margin-right: auto;
+border-left: solid 1px #b3b3b3 ;
+border-right: solid 1px #b3b3b3;
+background-color:#f0f0f0;
+}
+
+#header
+{
+height:199px;
+background-image:url(images/Header.jpg);
+
+}
+
+#navigation
+{
+height:41px;
+background-image:url(images/navBG.gif);
+border-bottom: solid 1px #b3b3b3;
+}
+
+#navigation ul 
+{
+float:left;
+list-style:none;
+margin:0; padding:0;
+}
+#navigation ul  li
+{
+
+float:left;
+list-style:none;
+
+}
+#navigation  a
+{
+height:25px;
+text-decoration:none;
+display:block; float:left;
+padding:10px 52px 6px 53px;
+color:#5b5b5b;
+font-weight:bold;
+}
+
+
+#navigation  a:hover
+{
+background-image:url(images/menuHover.gif);
+}
+
+#main a { color:#274CBA ; }
+#main a:visited
+{
+color:#4A66BD;
+}
+
+.contactForm label {width:150px; display:block; float:left;}
+.contactForm input[type="text"]{width:350px;display:block; float:left;}
+.textArea {width:350px;display:block; float:left; height:150px;}
+.contactForm input[type="submit"] {width:200px; margin-left:150px; margin-top:15px; }
+
+#header h1 a span 
+{
+position:relative;
+left:-3000px;
+}
+
+#header h1 a  
+{
+width:450px;
+height:200px;
+text-decoration:none;
+}
+
+#main
+{
+padding:12px 17px 45px 17px;
+background-color: #f0f0f0;
+_height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
+}
+
+#footer
+{
+color: #999;
+padding: 0px 30px;
+text-align: center;
+line-height: normal;
+margin: 0;
+font-size: .9em;
+border-top:solid 1px #000000;
+height:137px;
+background-image:url(images/footerBG.gif);
+}
+
+#footer ul li
+{
+float:left;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#footer ul 
+{
+margin:0;
+padding:0;
+display:inline;
+}
+
+
+.footerLinks a 
+{
+color:White;
+padding:0 10px; 
+text-decoration:none;
+}
+
+#footer a {color:White;}
+
+.footerLinks a:hover 
+{
+text-decoration:underline; 
+}
+
+label.error {width:100%; }
+.fullWidth { display:block; width:100%;}
+.copyMessage {margin-top:93px;}
+
+.mainContent { width:595px; float:left; background-color:White; padding:24px; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;  -moz-box-shadow: 3px 3px 3px #b6b6b6;
+-webkit-box-shadow: 3px 3px 3px #b6b6b6;
+box-shadow: 3px 3px 3px #b6b6b6;}
+.mainContent h1 { color:#0d4e00; font-size:1.6em; padding:0; margin: 0 0 25px 0; 
+                   
+            letter-spacing:-1px;
+                   
+font-weight:bold;
+font-style:italic;}
+.mainContent h2 { color:#00600e; font-size:1.3em; }
+
+
+.smallColumn {width:250px; float:left; margin-left:16px;}
+.blueBox { background-image:url(images/blueBoxBG.gif); border:solid 1px #80aabd; margin-bottom:12px;}
+.blueBox a {color:#585858 !important; font-weight:bold; }
+.lightBlueBox {background-image:url(images/lightBlueBoxBG.gif);border:solid 1px #8fb9d0;margin-bottom:12px;}
+.greyBox {background-image:url(images/greyBoxBG.gif);border:solid 1px #c6c6c6;margin-bottom:12px;}
+small { font-size:0.8em}
+
+.standardList {  list-style-image:url(images/bulletball.jpg); margin-left:21px; padding-left:0;}
+.standardList li {margin-bottom:9px;}
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {margin: 1em 0;  padding: 1em;   border: 1px solid #CCC;}
+
+fieldset p 
+{
+margin: 2px 12px 10px 10px;
+}
+
+fieldset label 
+{
+display: block;
+}
+
+fieldset label.inline 
+{
+display: inline;
+}
+
+legend 
+{
+font-size: 1.1em;
+font-weight: 600;
+padding: 2px 4px 8px 4px;
+}
+
+input[type="text"] 
+{
+width: 200px;
+border: 1px solid #CCC;
+color:#666666;
+}
+textarea{  color:#666666;
+border: 1px solid #CCC;}
+
+input[type="password"] 
+{
+width: 200px;
+border: 1px solid #CCC;
+}
+
+/* TABLE
+----------------------------------------------------------*/
+
+table 
+{
+border: solid 1px #e8eef4;
+border-collapse: collapse;
+}
+
+table td 
+{
+padding: 5px;   
+border: solid 1px #e8eef4;
+}
+
+table th
+{
+padding: 6px 5px;
+text-align: left;
+background-color: #e8eef4; 
+border: solid 1px #e8eef4;   
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear
+{
+clear: both;
+}
+
+.error
+{
+color:Red;
+}
+
+.field-validation-error
+{
+color: #ff0000;
+}
+
+.input-validation-error
+{
+border: 1px solid #ff0000;
+background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+font-weight: bold;
+color: #ff0000;
+}
+
+.androidman {position:relative; left:50px;}
+
+.as_coursename { width:350px !important; font-size:large; float:left; margin:0 9px 0 0;}
+
+.greyedOut { color:#666;}
+
+
+
+.btn { display: block; position: relative; background: #aaa; padding: 5px; float: left; color: #fff; text-decoration: none; cursor: pointer; }
+.btn * { font-style: normal; background-image: url(images/btn2.png); background-repeat: no-repeat; display: block; position: relative; }
+.btn i { background-position: top left; position: absolute; margin-bottom: -5px;  top: 0; left: 0; width: 5px; height: 5px; }
+.btn span { background-position: bottom left; left: -5px; padding: 0 0 5px 10px; margin-bottom: -5px; }
+.btn span i { background-position: bottom right; margin-bottom: 0; position: absolute; left: 100%; width: 10px; height: 100%; top: 0; }
+.btn span span { background-position: top right; position: absolute; right: -10px; margin-left: 10px; top: -5px; height: 0; }
+ 
+* html .btn span,
+* html .btn i { float: left; width: auto; background-image: none; cursor: pointer; }
+ 
+.btn.blue { background: #2ae; }
+.btn.green { background: #9d4; }
+.btn.pink { background: #e1a; }
+.btn:hover { background-color: #00600e; }
+.btn:active { background-color: #444; }
+.btn[class] {  background-image: url(images/shade.png); background-position: bottom; }
+ 
+* html .btn { border: 3px double #aaa; }
+* html .btn.blue { border-color: #2ae; }
+* html .btn.green { border-color: #9d4; }
+* html .btn.pink { border-color: #e1a; }
+* html .btn:hover { border-color: #00600e; }
+
+.smallColumn h3 { padding:0; margin:0 0 4px 0; font-size:1em; font-weight:bold; color:#555; }
+.box span { font-size:smaller; font-family:Helvetica; }
+.box { padding:2px 4px; height:77px;text-shadow: 0.1em 0.1em #dedede}
+.box small,.box span,.box ul {text-shadow:none; color:#333333;}
+ 
+
+.courseList { padding:0; margin:0; list-style:none; border-top: dashed 1px #dfdfdf;}
+h3 { margin:0; padding:2px 8px 0 0; font-size:1em; color:#666;}
+.courseList h3 { font-weight:bold; }
+.courseList li {border-bottom: dashed 1px #dfdfdf; padding:4px; margin:5px 0 5px 0;}
+
+.imgRotatorLinks { list-style:none; padding:0; margin:0; position:relative; top:-10px; left:23px;}
+.imgRotatorLinks li { float:left; list-style:none; padding:0 !important; margin:0 !important; }
+.imgRotatorLinks li img { border:solid 1px #666; padding:0; margin:0 3px; }
+
+#map {  width:100%; height:500px; margin:8px 0; border:solid 1px #999; }
+			
+.editor-label { font-weight:bold;}
+			
+.editor-field input[type=text], .editor-field textarea { width:100%; }
+			
+.mapInput{ background-color:#efefef; padding:8px 12px ;border:solid 1px #dedede; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;  font-weight:bold; margin:10px 0}
+			
+ul.form { margin:0px; padding:none; list-style:none; -webkit-padding-start: 0px}
+ul.form li { margin:0 0 12px 0; padding:0; }
+.txtName{ font-size:large; padding:4px 2px; }
+			
+.addHoleForm { margin:0px; padding:none; list-style:none; -webkit-padding-start: 0px}
+.addHoleForm li { float:left !important; width:30% !important; list-style:none; display:block; }
+			
+.date { display:block; margin-bottom:24px; font-size:small; font-weight:bold;}
+		
+.story { margin-bottom:36px; padding-bottom:4px; border-bottom:dashed 1px #dfdfdf; }
+	
+	.cName { float:left;}
+.cArea { font-style:italic; font-weight:bold; float:right; padding-top:2px;}
+
+#holesList li {width:25%; float:left;}
+#holesList{ margin-bottom:20px}
+.courseList .coursearea { padding-bottom:8px; font-style:italic; color:#535353; }
+.courseList .coursedescription { font-size:small; color:#333; }
+
+
+ul.smallList  
+{ list-style:none; padding:0 ; margin:0 ;}
+.smallList li { padding:2px 0 ;  font-size:small; margin:0; line-height:15px;}
+em { color:#535353;}
+
+.infoMsg{ margin-bottom:15px; padding:15px 10px; background-color:#FFFC9E; font-weight:bold; font-size:small; border:1px dotted #FFFC9E; color:#535353; line-height:1.3em; }
+
+.actionButton { border:solid 1px #333;  }
+
+.viewIcon { float:left; }
+
+
+#pageLinks li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+}
+#pageLinks a{
+border:solid 1px #DDDDDD;
+margin-right:2px;
+}
+#pageLinks .previous-off,
+#pageLinks .next-off {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+#pageLinks .next a,
+#pageLinks .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+}
+#pageLinks .active{
+color:#ff0084;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+#pageLinks a:link,
+#pageLinks a:visited {
+color:#0063e3;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pageLinks a:hover{
+border:solid 1px #666666;
+}

@@ -1,0 +1,7 @@
+C:\dev\cmweb\CaddyMagic.Data\bin\Debug\CaddyMagic.Data.dll
+C:\dev\cmweb\CaddyMagic.Data\bin\Debug\CaddyMagic.Data.pdb
+C:\dev\cmweb\CaddyMagic.Data\bin\Debug\CaddyMagic.Domain.dll
+C:\dev\cmweb\CaddyMagic.Data\bin\Debug\CaddyMagic.Domain.pdb
+C:\dev\cmweb\CaddyMagic.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\cmweb\CaddyMagic.Data\obj\Debug\CaddyMagic.Data.dll
+C:\dev\cmweb\CaddyMagic.Data\obj\Debug\CaddyMagic.Data.pdb

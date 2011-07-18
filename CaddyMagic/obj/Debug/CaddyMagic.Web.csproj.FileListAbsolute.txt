@@ -1,0 +1,75 @@
+c:\Dev\CaddyMagic\CaddyMagic\bin\CaddyMagic.Web.dll
+c:\Dev\CaddyMagic\CaddyMagic\bin\CaddyMagic.Web.pdb
+c:\Dev\CaddyMagic\CaddyMagic\obj\Debug\ResolveAssemblyReference.cache
+c:\Dev\CaddyMagic\CaddyMagic\obj\Debug\CaddyMagic.Web.dll
+c:\Dev\CaddyMagic\CaddyMagic\obj\Debug\CaddyMagic.Web.pdb
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\CaddyMagic.Web.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\CaddyMagic.Web.pdb
+C:\Dev\CaddyMagic Website\CaddyMagic\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\CaddyMagic Website\CaddyMagic\obj\Debug\CaddyMagic.Web.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\obj\Debug\CaddyMagic.Web.pdb
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\Db4objects.Db4o.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\Db4objects.Db4o.Linq.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\Cecil.FlowAnalysis.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\Mono.Cecil.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\CaddyMagic.Domain.dll
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\CaddyMagic.Domain.pdb
+C:\Dev\CaddyMagic Website\CaddyMagic\bin\Db4objects.Db4o.CS.dll
+C:\dev\cmweb\CaddyMagic\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\cmweb\CaddyMagic\bin\CaddyMagic.Web.dll
+C:\dev\cmweb\CaddyMagic\bin\CaddyMagic.Web.pdb
+C:\dev\cmweb\CaddyMagic\bin\Antlr3.Runtime.dll
+C:\dev\cmweb\CaddyMagic\bin\CaddyMagic.Data.dll
+C:\dev\cmweb\CaddyMagic\bin\CaddyMagic.Domain.dll
+C:\dev\cmweb\CaddyMagic\bin\Castle.Core.dll
+C:\dev\cmweb\CaddyMagic\bin\Castle.DynamicProxy2.dll
+C:\dev\cmweb\CaddyMagic\bin\Castle.MicroKernel.dll
+C:\dev\cmweb\CaddyMagic\bin\Castle.Windsor.dll
+C:\dev\cmweb\CaddyMagic\bin\CommonServiceLocator.WindsorAdapter.dll
+C:\dev\cmweb\CaddyMagic\bin\Db4objects.Db4o.CS.dll
+C:\dev\cmweb\CaddyMagic\bin\Db4objects.Db4o.dll
+C:\dev\cmweb\CaddyMagic\bin\Db4objects.Db4o.Linq.dll
+C:\dev\cmweb\CaddyMagic\bin\FluentNHibernate.dll
+C:\dev\cmweb\CaddyMagic\bin\Iesi.Collections.dll
+C:\dev\cmweb\CaddyMagic\bin\Inflector.Net.dll
+C:\dev\cmweb\CaddyMagic\bin\log4net.dll
+C:\dev\cmweb\CaddyMagic\bin\Microsoft.Practices.ServiceLocation.dll
+C:\dev\cmweb\CaddyMagic\bin\Microsoft.Web.Mvc.dll
+C:\dev\cmweb\CaddyMagic\bin\MvcContrib.Castle.dll
+C:\dev\cmweb\CaddyMagic\bin\MvcContrib.dll
+C:\dev\cmweb\CaddyMagic\bin\MvcContrib.FluentHtml.dll
+C:\dev\cmweb\CaddyMagic\bin\Newtonsoft.Json.dll
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.ByteCode.Castle.dll
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.dll
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.Linq.dll
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.Validator.dll
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Core.dll
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Core.NHibernateValidator.dll
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Data.dll
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Web.Castle.dll
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Web.dll
+C:\dev\cmweb\CaddyMagic\bin\CaddyMagic.Data.pdb
+C:\dev\cmweb\CaddyMagic\bin\CaddyMagic.Domain.pdb
+C:\dev\cmweb\CaddyMagic\bin\Castle.Core.xml
+C:\dev\cmweb\CaddyMagic\bin\Castle.DynamicProxy2.xml
+C:\dev\cmweb\CaddyMagic\bin\Castle.MicroKernel.xml
+C:\dev\cmweb\CaddyMagic\bin\Castle.Windsor.xml
+C:\dev\cmweb\CaddyMagic\bin\FluentNHibernate.xml
+C:\dev\cmweb\CaddyMagic\bin\Iesi.Collections.xml
+C:\dev\cmweb\CaddyMagic\bin\log4net.xml
+C:\dev\cmweb\CaddyMagic\bin\MvcContrib.xml
+C:\dev\cmweb\CaddyMagic\bin\MvcContrib.Castle.xml
+C:\dev\cmweb\CaddyMagic\bin\MvcContrib.FluentHtml.xml
+C:\dev\cmweb\CaddyMagic\bin\Newtonsoft.Json.xml
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.xml
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.ByteCode.Castle.xml
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.Linq.xml
+C:\dev\cmweb\CaddyMagic\bin\NHibernate.Validator.xml
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Core.pdb
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Core.NHibernateValidator.pdb
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Data.pdb
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Web.pdb
+C:\dev\cmweb\CaddyMagic\bin\SharpArch.Web.Castle.pdb
+C:\dev\cmweb\CaddyMagic\obj\Debug\CaddyMagic.Web.dll
+C:\dev\cmweb\CaddyMagic\obj\Debug\CaddyMagic.Web.pdb
+C:\dev\cmweb\CaddyMagic\bin\kml\BridlingtonLinks.kml

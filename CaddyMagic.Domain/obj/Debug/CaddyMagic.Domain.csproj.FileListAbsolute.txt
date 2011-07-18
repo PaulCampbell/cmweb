@@ -1,0 +1,20 @@
+C:\Dev\CaddyMagic\CaddyMagic.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\CaddyMagic\CaddyMagic.Domain\bin\Debug\CaddyMagic.Domain.dll
+C:\Dev\CaddyMagic\CaddyMagic.Domain\bin\Debug\CaddyMagic.Domain.pdb
+C:\Dev\CaddyMagic\CaddyMagic.Domain\obj\Debug\CaddyMagic.Domain.dll
+C:\Dev\CaddyMagic\CaddyMagic.Domain\obj\Debug\CaddyMagic.Domain.pdb
+C:\Dev\CaddyMagic Website\CaddyMagic.Domain\bin\Debug\CaddyMagic.Domain.dll
+C:\Dev\CaddyMagic Website\CaddyMagic.Domain\bin\Debug\CaddyMagic.Domain.pdb
+C:\Dev\CaddyMagic Website\CaddyMagic.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\CaddyMagic Website\CaddyMagic.Domain\obj\Debug\CaddyMagic.Domain.dll
+C:\Dev\CaddyMagic Website\CaddyMagic.Domain\obj\Debug\CaddyMagic.Domain.pdb
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\CaddyMagic.Domain.dll
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\CaddyMagic.Domain.pdb
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\SharpArch.Core.dll
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\SharpArch.Core.pdb
+C:\dev\cmweb\CaddyMagic.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\dev\cmweb\CaddyMagic.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\cmweb\CaddyMagic.Domain\obj\Debug\CaddyMagic.Domain.dll
+C:\dev\cmweb\CaddyMagic.Domain\obj\Debug\CaddyMagic.Domain.pdb

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic
+END
+Global.asax.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/webpangea_cmweb/!svn/ver/2/CaddyMagic/Global.asax.cs
+END
+CaddyMagic.Web.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/webpangea_cmweb/!svn/ver/9/CaddyMagic/CaddyMagic.Web.csproj
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/webpangea_cmweb/!svn/ver/8/CaddyMagic/Web.config
+END
+Default.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Default.aspx.cs
+END
+NHibernate.config
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/webpangea_cmweb/!svn/ver/3/CaddyMagic/NHibernate.config
+END
+CaddyMagic.Web.Publish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/webpangea_cmweb/!svn/ver/9/CaddyMagic/CaddyMagic.Web.Publish.xml
+END
+Global.asax
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Global.asax
+END
+CaddyMagic.Web.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/webpangea_cmweb/!svn/ver/2/CaddyMagic/CaddyMagic.Web.csproj.user
+END
+Default.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Default.aspx
+END

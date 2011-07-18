@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Data
+END
+SessionFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Data/SessionFactory.cs
+END
+ISession.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Data/ISession.cs
+END
+db4osession.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic/Data/db4osession.cs
+END

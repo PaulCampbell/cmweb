@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic.Tests
+END
+AuthoringTests.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic.Tests/AuthoringTests.txt
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic.Tests/App.config
+END
+CaddyMagic.Tests.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/webpangea_cmweb/!svn/ver/2/CaddyMagic.Tests/CaddyMagic.Tests.csproj
+END
+Phone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/webpangea_cmweb/!svn/ver/1/CaddyMagic.Tests/Phone.cs
+END
