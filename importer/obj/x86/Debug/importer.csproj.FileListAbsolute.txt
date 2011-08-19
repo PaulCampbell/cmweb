@@ -1,0 +1,6 @@
+C:\dev\cmweb\cmweb\importer\bin\Debug\importer.exe
+C:\dev\cmweb\cmweb\importer\bin\Debug\importer.pdb
+C:\dev\cmweb\cmweb\importer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\dev\cmweb\cmweb\importer\obj\x86\Debug\importer.exe
+C:\dev\cmweb\cmweb\importer\obj\x86\Debug\importer.pdb
+C:\dev\cmweb\cmweb\importer\bin\Debug\kmllist.csv

@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="34EC1FED-E81A-4367-A0E5-68C30F90B48A" ModuleId="CaddyMagic.KMLComsumer" />
+  <Module PersistentId="4625C4C7-739E-4F1D-9C1B-36C8886B6B9A" ModuleId="CaddyMagic.Domain" />
+  <Module PersistentId="ABE45324-0908-49B5-AFCE-3597F1A6172B" ModuleId="CaddyMagic.Data" />
+  <Module PersistentId="1CC53B6F-2C6F-448F-93ED-47ACEF986CD4" ModuleId="CaddyMagic.Web" />
+  <Module PersistentId="C10B4B70-1EB3-46E8-98D5-AF5C1C7FCDD8" ModuleId="importer" />
+</Modules>

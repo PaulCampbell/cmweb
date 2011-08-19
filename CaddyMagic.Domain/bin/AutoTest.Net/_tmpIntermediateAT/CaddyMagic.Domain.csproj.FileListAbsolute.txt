@@ -1,0 +1,1 @@
+C:\dev\cmweb\cmweb\CaddyMagic.Domain\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache

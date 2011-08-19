@@ -27,10 +27,10 @@ namespace CaddyMagic.Web.Controllers
        //[AcceptVerbs(HttpVerbs.Post)]
         public ActionResult ImportKML(string KMLUrl)
         {
-             GolfCourseRepository repo = new GolfCourseRepository();
-                Repository<FeatureType> fRepo = new Repository<FeatureType>();
+            GolfCourseRepository repo = new GolfCourseRepository();
+            Repository<FeatureType> fRepo = new Repository<FeatureType>();
 
-                var Kml = XDocument.Load("http://www.bbgpsgolf.com/kml/GreenValleyGolfCourse.kml"); //Server.MapPath("../kml/BridlingtonLinks.kml"));
+            var Kml = XDocument.Load(KMLUrl); //Server.MapPath("../kml/BridlingtonLinks.kml"));
             var name = Kml.Descendants().Where(x => x.Name.LocalName == "name").First().Value;
             var features = (from h in Kml.Descendants().Elements().Where(x => x.Name.LocalName == "Placemark") select h).ToList();
             GolfCourse gc = new GolfCourse();
